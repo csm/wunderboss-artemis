@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-  <groupId>org.projectodd.wunderboss</groupId>
+  <groupId>io.bfpcorporation.wunderboss</groupId>
   <artifactId>wunderboss-artemis</artifactId>
-  <version>0.2.1-SNAPSHOT</version>
+  <version>0.2.1</version>
   <name>WunderBoss Artemis</name>
 
   <modelVersion>4.0.0</modelVersion>
@@ -38,8 +38,8 @@
   </licenses>
 
   <properties>
-    <version.wunderboss>0.12.0</version.wunderboss>
-    <version.artemis>1.2.0</version.artemis>
+    <version.wunderboss>0.12.2</version.wunderboss>
+    <version.artemis>1.5.0</version.artemis>
     <version.clojure>1.8.0</version.clojure>
   </properties>
 
@@ -58,14 +58,14 @@
 
   <distributionManagement>
     <repository>
-      <id>sonatype-nexus-staging</id>
-      <name>Nexus Staging Repo</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>clojars</id>
+      <name>Clojars</name>
+      <url>https://clojars.org/repo/</url>
     </repository>
     <snapshotRepository>
-      <id>sonatype-nexus-snapshots</id>
-      <name>Nexus Snapshot Repo</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <id>clojars</id>
+      <name>Clojars</name>
+      <url>https://clojars.org/repo/</url>
     </snapshotRepository>
   </distributionManagement>
 
